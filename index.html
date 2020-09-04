@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="asset/css/bootstrap.min.css" >
+    
+    <title>dokumen</title>
+    <style>
+      #overview{
+        background-image: url(img/gambar1.jpg);
+        background-size: cover;
+      }
+      @media (max-width: 575.98px){
+        #overview-image{
+          display: none;
+        }
+        .container-fluid{
+         box-sizing: content-box;
+        }
+        #navigation{
+          display: none;
+        }
+        #description h1{
+          font-size: 1.2rem;
+        }
+        .list-article h2{
+          font-size: 1.2rem;
+        }
+      }
+    </style>
+</head>
+<body>
+    <div class="container  bg-secondary">
+       <div class="row border" id="header">
+        <div id="logo" class="col-sm-6">
+          <a href="index.html">          
+            <img src="img/logo.png" alt="gagal" width="60px" height="30px">
+          </a>
+        </div>
+        <div id="navigation" class="col-sm-6 ">
+          <ul class="nav ">
+            <li class="nav-item">
+              <a class="nav-link text-uppercase text-light" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase text-light" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase text-light" href="#">Contact </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase text-light" href="#">Services</a>
+            </li>
+          </ul>
+        </div>
+       </div>
+    </div>
+
+    <!--block overview-->
+    <div id="overview" class="container-fluid">
+      <div class="row">
+        <div id="description" class="col-sm-6 pl-5 pt-2">
+          <h1 class="text-light">Jangan Sia-Siakan Waktu</h1>
+          <p class="text-light"> "Kerugian materi dapat digantikan dengan industri, kerugian pengetahuan dengan belajar, kehilangan kesehatan dengan kendali diri sendiri atau obat-obatan, namun waktu yang kita lewati akan hilang selamanya." </p>
+          <p class="text-light"> <i>-Adolf_hitler-</i></p>
+          <a  class="btn btn-warning" href="#">Read More</a>
+        </div>
+        <div id="overview-image" class="col-sm-6 ml-0">
+          <img src="img/gambar1.jpg" alt="gagal " >
+        </div>
+      </div>
+    </div>
+
+    <!--blok article-->
+    <div class="container" id="article">
+      <div class="row">
+        <div id="contenet" class="col-sm-8">
+          <div class="list-article ">
+            <img class="img-fluid" src="img/gambar4.jpg" alt="gagal">
+            <a href="#">Article</a>
+            <div id="author">
+              <img  class="rounded-circle float-left" src="img/images.jpg" alt="gagal" width="48" height="48" >
+              <p class="float-left pt-3 pl-2"> 04 september 2020</p>
+              <div class="clearfix"></div>
+            </div>
+            <h2 class="display-4">Perkembangan Teknologi</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla, asperiores accusamus! Expedita quasi mollitia laboriosam voluptates optio impedit atque aliquam fugiat quas voluptatum quod repudiandae, illum, molestias nisi esse consequuntur?</p>
+            <a  class="btn btn-warning" href="#">REad More</a>
+          </div>
+        </div>
+        <div id="sidebar" class="col-sm-4">
+          <ul class="list-group">
+            <li class="list-group-item" id="article-1"><a href="#article-1">Perkembangan Teknologi</a></li>
+            <li class="list-group-item">Dapibus ac facilisis in</li>
+            <li class="list-group-item">Morbi leo risus</li>
+            <li class="list-group-item">Porta ac consectetur ac</li>
+            <li class="list-group-item">Vestibulum at eros</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!--blok footer-->
+    <div class="container-fluid bg-secondary text-light" >
+      <div class="row">
+        <div class="col-sm-3">
+          <h3>DEVELOPER</h3>
+          <p>Miftachul Rohman <br>contanct person :085987345123 <br>FB :Miftah aja <br>E-mail :MIftah@gmail.com</p>
+        </div>
+        <div class="col-sm-3">
+          <h3>MANAGER</h3>
+          <p>Anang Syah A <br>contanct person :085987345123 <br>FB :Anang aja <br>E-mail :Anang@gmail.com</p>
+       
+          </div>
+        <div class="col-sm-3">
+          <h3>PUBLISHER</h3>
+          <p>Muhammad Rimba A <br>contanct person :085987345123 <br>FB :Rimba aja <br>E-mail :Rimba@gmail.com</p>
+       
+           </div>
+        <div class="col-sm-3">
+          <h3>ADMINISTRATOR</h3>
+          <p>Khoirudin <br>contanct person :085987345123 <br>FB :Udin aja <br>E-mail :Udin@gmail.com</p>
+       
+           </div>
+
+
+      </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="asset/js/jquery-3.5.1.slim.min.js" ></script>
+    <script src="asset/js/popper.min.js" ></script>
+    <script src="asset/js/bootstrap.min.js" ></script>
+    <script>
+        x=document.getElementsByClassName("tes")[0];
+        y=x.parentNode.parentNode;
+        x.innerHTML=y.offsetWidth;
+    </script>
+</body>
+</html>
